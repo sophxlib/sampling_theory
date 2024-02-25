@@ -108,28 +108,28 @@ upper_bound1 <- 39.01426 + t1*sqrt(0.060366)
 
 n2 <- 60
 t2 <- qt(0.05, n2-1, lower.tail=FALSE)
-lower_bound2 <- 39.01426 - t2*sqrt(0.060366)
-upper_bound2 <- 39.01426 + t2*sqrt(0.060366)
+lower_bound2 <- 39.04000 - t2*sqrt(1.159113)
+upper_bound2 <- 39.04000 + t2*sqrt(1.159113)
 
 n3 <- 16
 t3 <- qt(0.05, n3-1, lower.tail=FALSE)
-lower_bound3 <- 39.01426 - t3*sqrt(0.060366)
-upper_bound3 <- 39.01426 + t3*sqrt(0.060366)
+lower_bound3 <- 38.06875 - t3*sqrt(3.48437)
+upper_bound3 <- 38.06875 + t3*sqrt(3.48437)
 
 n4 <- 549
 t4 <- qt(0.05, n4-1, lower.tail=FALSE)
-lower_bound4 <- 39.01426 - t4*sqrt(0.060366)
-upper_bound4 <- 39.01426 + t4*sqrt(0.060366)
+lower_bound4 <- 39.31967 - t4*sqrt(0.04022805)
+upper_bound4 <- 39.31967 + t4*sqrt(0.04022805)
 
 n5 <- 82
 t5 <- qt(0.05, n5-1, lower.tail=FALSE)
-lower_bound5 <- 39.01426 - t5*sqrt(0.060366)
-upper_bound5 <- 39.01426 + t5*sqrt(0.060366)
+lower_bound5 <- 39.07805 - t5*sqrt(1.002576)
+upper_bound5 <- 39.07805 + t5*sqrt(1.002576)
 
 n6 <- 23
 t6 <- qt(0.05, n6-1, lower.tail=FALSE)
-lower_bound6 <- 39.01426 - t6*sqrt(0.060366)
-upper_bound6 <- 39.01426 + t6*sqrt(0.060366)
+lower_bound6 <- 39.72609 - t6*sqrt(3.635956)
+upper_bound6 <- 39.72609 + t6*sqrt(3.635956)
 
 # find d with 100 samples of n=82
 rep <- replicate(100, sample(x,size=82, replace=FALSE))
