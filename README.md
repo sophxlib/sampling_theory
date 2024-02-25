@@ -1,2 +1,5 @@
-# sampling_theory
-Analysis of Average Winter Temperatures in College Park, MD
+# Comprehensive Analysis of Sampling Methodologies for Estimating Average Winter Temperature in College Park, MD
+This was a semester-long research project conducted as part of STAT440: Sampling Theory course. This project focuses on the application of various sampling methodologies to determine the most robust estimator for the average winter temperature in College Park.
+
+# Objective:
+The primary objective of this project is to evaluate and compare different sampling techniques in order to identify the optimal estimator for average winter temperature estimation. Each sampling technique possesses its own set of advantages and limitations. By employing a diverse range of methodologies, including simple random sampling, unequal probability sampling, sampling with auxiliary variables, stratified sampling, systematic sampling, two-stage sampling, and double sampling, we aim to provide insights into the nuances of temperature estimation. Certain sampling techniques may be more suitable for capturing specific patterns in the data and thereby, enhancing the validity and generalizability of our findings.
